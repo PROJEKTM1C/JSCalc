@@ -1,4 +1,3 @@
-// MY LOGIC HERE
 
 function but1(){
     document.getElementById("btn").value += '1';
