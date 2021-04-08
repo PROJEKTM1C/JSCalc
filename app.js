@@ -36,6 +36,10 @@ function but9(){
     document.getElementById("btn").value += '9';
 }
 
+function but0(){
+    document.getElementById("btn").value += '0';
+}
+
 function butadd(){
     document.getElementById("btn").value += "+";
 }
