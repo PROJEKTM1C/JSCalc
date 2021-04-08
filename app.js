@@ -56,6 +56,11 @@ function butdiv(){
     document.getElementById("btn").value += '/';
 }
 
+function butdot(){
+    document.getElementById("btn").value += '.';
+}
+
+
 function butclear(){
     document.getElementById("btn").value = null;
 }
