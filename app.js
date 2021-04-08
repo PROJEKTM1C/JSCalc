@@ -66,12 +66,5 @@ function butclear(){
 }
 
 function butequ(){
-    if (document.getElementById("btn").value != null){
-
     document.getElementById("btn").value = eval(document.getElementById("btn").value);
-    }
-
-    else if (document.getElementById("btn").value != undefined ){
-        document.getElementById("btn").value = "enter value first";
-    }
 }
