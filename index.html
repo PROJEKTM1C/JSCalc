@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script> 
+  <title>CALCULATORJS</title>
+</head>
+
+<body>
+
+  <div class = title >Calculate</div>
+    <table border="1">
+
+      <tr>
+        <td><input type="button" value="Clear" onclick="butclear()"/> </td>
+        <td colspan="3"><input type="text" id="btn" value= "" /></td>
+        <!-- Clear function  -->
+      </tr>
+
+      <tr>
+      <!-- Calculator Buttons -->
+        <td><input id= "button" type="button" value="+" onclick="butadd()"/> </td>
+        <td><input id= "button" type="button" value="1" onclick="but1()"/> </td>
+        <td><input id= "button" type="button" value="2" onclick="but2()"/> </td>
+        <td><input id= "button" type="button" value="3" onclick="but3()"/> </td>
+      </tr>
+
+      <tr>
+        <td><input id= "button" type="button" value="-" onclick="butsub()"/> </td>
+        <td><input id= "button" type="button" value="4" onclick="but4()"/> </td>
+        <td><input id= "button" type="button" value="5" onclick="but5()"/> </td>
+        <td><input id= "button" type="button" value="6" onclick="but6()"/> </td>
+      </tr>
+
+      <tr>
+        <td><input id= "button" type="button" value="*" onclick="butmul()"/> </td>
+        <td><input id= "button" type="button" value="7" onclick="but7()"/> </td>
+        <td><input id= "button" type="button" value="8" onclick="but8()"/> </td>
+        <td><input id= "button" type="button" value="9" onclick="but9()"/> </td>
+      </tr>
+
+      <tr>
+        <td><input id= "button" type="button" value="/" onclick="butdiv()"/> </td>
+        <td><input id= "button" type="button" value="." onclick="butdot()"/> </td>
+        <td><input id= "button" type="button" value="0" onclick="but0()"/> </td>
+        <!-- = Will Call Function To Calculate Input Expression -->
+        <td><input id= "button" type="button" value="=" onclick="butequ()"/> </td>
+      </tr>
+    </table>
+</body>
+</html>
