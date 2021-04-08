@@ -1,3 +1,4 @@
+
 // YOUR LOGIC HERE
 
 function but1(){
@@ -68,3 +69,4 @@ function butclear(){
 function butequ(){
     document.getElementById("btn").value = eval(document.getElementById("btn").value);
 }
+
